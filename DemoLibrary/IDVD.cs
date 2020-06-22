@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public interface IBorrowableAudioBook :IAudioBook, IBorrowable
+    public interface IDVD :ILibraryItem
     {
+         List<string> Actors { get; set; }
+         int RuntimeInMinutes { get; set; }
+
     }
 }
