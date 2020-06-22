@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DemoLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,10 @@ namespace ISPDemo
     {
         static void Main(string[] args)
         {
+            IBorrowabeDVD dvd = new DVD();
+            
+
+            Console.Read();
         }
     }
 }

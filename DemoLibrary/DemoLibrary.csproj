@@ -41,19 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AudioBook.cs" />
-    <Compile Include="Book.cs" />
-    <Compile Include="DVD.cs" />
-    <Compile Include="IAudioBook.cs" />
-    <Compile Include="IBook.cs" />
-    <Compile Include="IBorrowabeDVD.cs" />
-    <Compile Include="IBorrowable.cs" />
-    <Compile Include="IBorrowableAudioBook.cs" />
-    <Compile Include="IBorrowableBook.cs" />
-    <Compile Include="IDVD.cs" />
-    <Compile Include="ILibraryItem.cs" />
+    <Compile Include="AudioBook\AudioBook.cs" />
+    <Compile Include="Book\Book.cs" />
+    <Compile Include="DVD\DVD.cs" />
+    <Compile Include="AudioBook\IAudioBook.cs" />
+    <Compile Include="Book\Interfaces\IBook.cs" />
+    <Compile Include="DVD\IBorrowabeDVD.cs" />
+    <Compile Include="GanarallInterface\IBorrowable.cs" />
+    <Compile Include="AudioBook\IBorrowableAudioBook.cs" />
+    <Compile Include="Book\Interfaces\IBorrowableBook.cs" />
+    <Compile Include="DVD\IDVD.cs" />
+    <Compile Include="GanarallInterface\ILibraryItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReferenceBook.cs" />
+    <Compile Include="Book\ReferenceBook.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
