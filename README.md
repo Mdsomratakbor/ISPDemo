@@ -17,6 +17,6 @@
 
 `With ISP, the following image is a good example of segregation in our real life.`
 
-<img alt="ISP in Real Life" class="" data-src="/UploadFile/pranayamr/overview-of-interface-segregation-principle/Images/Violation of ISP.jpg" src=""https://www.c-sharpcorner.com/UploadFile/pranayamr/overview-of-interface-segregation-principle/Images/Violation of ISP.jpg">
+<img alt="ISP in Real Life" class="" data-src="/UploadFile/pranayamr/overview-of-interface-segregation-principle/Images/Violation of ISP.jpg" src="https://www.c-sharpcorner.com/UploadFile/pranayamr/overview-of-interface-segregation-principle/Images/Violation of ISP.jpg">
 
 ### Figure 2: ISP in Real Life
