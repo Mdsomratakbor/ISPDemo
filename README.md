@@ -10,4 +10,5 @@
 
 ### Interface Segregation Principle in Real life
 `In terms of the violation of the ISP, the following image shows a big dustbin for throwing all kinds of garbage away without any kind of segregation.`
+
 <img alt="Dustbin " class="" data-src="/UploadFile/pranayamr/overview-of-interface-segregation-principle/Images/dustbin.jpg" src="https://www.c-sharpcorner.com/UploadFile/pranayamr/overview-of-interface-segregation-principle/Images/dustbin.jpg">
