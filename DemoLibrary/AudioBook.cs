@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class AudioBook
+    public class AudioBook : IAudioBook
     {
+        public int RuntimeInMinutes { get; set; }
+        public string LibraryID { get; set; }
+        public string Title { get; set; }
     }
 }
