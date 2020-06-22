@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    interface ILibraryItem
+    public interface ILibraryItem
     {
        string LibraryID { get; set; } 
-        string Author { get; set; }
-        DateTime BorrowDate { get; set; }
-        string Borrower { get; set; }
-        int CheckOutDurationInDays { get; set; }
-        
-        int Pages { get; set; }
         string Title { get; set; }
-        void CheckIn();
-        void CheckOut(string borrower);
-        DateTime GetDueDate();
+       // string Author { get; set; }
+       // DateTime BorrowDate { get; set; }
+       // string Borrower { get; set; }
+       // int CheckOutDurationInDays { get; set; }
+        //int Pages { get; set; }
+       
+       // void CheckIn();
+       // void CheckOut(string borrower);
+       // DateTime GetDueDate();
     }
 }
